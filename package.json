@@ -1,0 +1,19 @@
+{
+  "name": "impftermin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "book.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "warn": "say wow wow wow",
+    "book": "node book.js",
+    "go": "run-p warn book",
+    "check": "watch -n 2 ./check.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.11.1",
+    "run-p": "^0.0.0"
+  }
+}
